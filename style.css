@@ -1,0 +1,183 @@
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+
+}
+
+.sela {
+    background-color: rgb(1, 2, 8);
+    color: #fff;
+    text-align: center;
+}
+
+button {
+    text-decoration-line: underline;
+    background-color: rgb(1, 2, 8);
+    color: #fff;
+    text-align: center;
+    border: none;
+}
+
+.button_close {
+    width: 50%;
+}
+
+.navbar {
+    padding: 30px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.menu {
+    visibility: hidden;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar-item {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+    color: black;
+}
+
+input {
+    border-radius: 60px;
+    width: 350px;
+    background-color: #F0F0F0;
+    border: none;
+    padding-left: 20px;
+    height: 30px;
+}
+
+@media screen and (max-width: 950px) {
+    body {
+        font-size: 16px;
+    }
+
+    .sela {
+        background-color: rgb(1, 2, 8);
+        align-items: center;
+    }
+
+    .sela_text {
+        text-align: center;
+    }
+
+    button,
+    input,
+    .navbar-list {
+        visibility: hidden;
+    }
+
+    .icon {
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+        /* Устанавливаем правый отступ для логотипа */
+
+    }
+
+    .icon1 {
+
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        visibility: visible;
+    }
+
+    .navbar {
+
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+    .logo {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .menu {
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+    }
+
+
+    @media screen and (max-width: 1170px) {
+        body {
+            font-family: "Work Sans", sans-serif;
+        }
+
+        header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            width: 100%;
+        }
+
+        .sela {
+            background-color: rgb(1, 2, 8);
+            color: #fff;
+            text-align: center;
+        }
+
+        button {
+            text-decoration-line: underline;
+            background-color: rgb(1, 2, 8);
+            color: #fff;
+            text-align: center;
+            border: none;
+        }
+
+        .navbar {
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .menu {
+            visibility: visible;
+        }
+
+        .navbar-list, a,input {
+            display: none;
+           
+        }
+
+        .navbar-item {
+            list-style: none;
+        }
+
+    }
+
+
+}
