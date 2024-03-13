@@ -68,6 +68,17 @@ input {
     padding-left: 20px;
     height: 30px;
 }
+.icon1{
+    display: none;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    /* Устанавливаем правый отступ для логотипа */
+
+}
 
 @media screen and (max-width: 950px) {
     body {
