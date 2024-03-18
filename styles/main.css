@@ -1,5 +1,6 @@
 body {
     font-family: "Work Sans", sans-serif;
+    font-size: 30px;
 }
 
 header {
@@ -76,9 +77,61 @@ input {
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    /* Устанавливаем правый отступ для логотипа */
 
 }
+
+
+.container{
+    
+    margin-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    background-image: url('/images/background.png');
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: calc(100vh - 100px); 
+    object-fit:cover;
+    background-repeat: no-repeat;
+    
+}
+  h2{
+    font-size: 50px;
+    font-family:'Segoe UI';
+    text-transform: uppercase;
+    /* white-space: pre; */
+  }
+  p{
+    color: #828282;
+    font-size: 15px;
+    white-space: normal;
+  }
+
+  .Buy{
+    background-color: rgb(1, 2, 8);
+    color: #fff;
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+  }
+
+  .adventages{
+    display: flex;
+    flex-direction: row;
+    
+    margin-right: 50px;
+  }
+
+  .a1{
+    text-align: left;
+    margin-right: 50px;
+  }
+
+
 
 @media screen and (max-width: 950px) {
     body {
@@ -139,6 +192,8 @@ input {
         height: 20px;
     }
 
+
+ 
 
     @media screen and (max-width: 1170px) {
         body {
